@@ -1,0 +1,504 @@
+[1663330325.895][INFO]: Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 42269
+[1663330325.895][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1663330326.396][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--allow-running-insecure-content", "--disable-web-security", "disable-infobars", "--no-proxy-server", "--disable-gpu", "log-level=3", "--no-sandbox", "--autoplay-policy=no-user-gesture-required", "--start-maximized", "--ignore-certificate-errors", "--enable-javascript", "--disable-notifications", "--disable-blink-features=AutomationControlled", "--enable-popup-blocking", "--disable-dev-shm-usage", "--disable-setuid-sandbox", "--remote-debugging-port=9222", "--disable-dev-shm-using", "--ignore-certificate-errors-spki-list", "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36", "--user-data-dir=/home/riken/Desktop/workspace/coinmarket/coinmarket/profiles", "--profile-directory=3556" ],
+            "excludeSwitches": [ "enable-logging", "enable-automation", "ignore-certificate-errors", "safebrowsing-disable-download-protection", "safebrowsing-disable-auto-update", "disable-client-side-phishing-detection" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": true,
+               "profile.password_manager_enabled": true
+            },
+            "useAutomationExtension": false
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1663330326.396][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1663330326.396][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1663330326.397][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": true,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": true
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1663330326.399][INFO]: Populating Local State file: {
+   "autofill": {
+      "states_data_dir": "/home/riken/Desktop/workspace/coinmarket/coinmarket/profiles/AutofillStates/2020.11.2.164946"
+   },
+   "background_mode": {
+      "enabled": false
+   },
+   "hardware_acceleration_mode_previous": true,
+   "invalidation": {
+      "per_sender_topics_to_handler": {
+      }
+   },
+   "legacy": {
+      "profile": {
+         "name": {
+            "migrated": true
+         }
+      }
+   },
+   "policy": {
+      "last_statistics_update": "13307793682222215"
+   },
+   "profile": {
+      "info_cache": {
+         "1": {
+            "active_time": 1663327089.322507,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+            "background_apps": false,
+            "force_signin_profile_locked": false,
+            "gaia_id": "",
+            "is_consented_primary_account": false,
+            "is_ephemeral": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": true,
+            "managed_user_id": "",
+            "metrics_bucket_index": 1,
+            "name": "Person 1",
+            "signin.with_credential_provider": false,
+            "user_name": ""
+         },
+         "265": {
+            "active_time": 1663327382.915151,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+            "background_apps": false,
+            "force_signin_profile_locked": false,
+            "gaia_id": "",
+            "is_consented_primary_account": false,
+            "is_ephemeral": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": true,
+            "managed_user_id": "",
+            "metrics_bucket_index": 2,
+            "name": "Person 2",
+            "signin.with_credential_provider": false,
+            "user_name": ""
+         },
+         "3555": {
+            "active_time": 1663330187.055742,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+            "background_apps": false,
+            "force_signin_profile_locked": false,
+            "gaia_id": "",
+            "is_consented_primary_account": false,
+            "is_ephemeral": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": true,
+            "managed_user_id": "",
+            "metrics_bucket_index": 3,
+            "name": "Person 3",
+            "signin.with_credential_provider": false,
+            "user_name": ""
+         }
+      },
+      "last_active_profiles": [ "3555" ],
+      "last_used": "3555",
+      "metrics": {
+         "next_bucket_index": 4
+      },
+      "profile_counts_reported": "13307800689179903"
+   },
+   "profile_network_context_service": {
+      "http_cache_finch_experiment_groups": "None None None None"
+   },
+   "session_id_generator_last_value": "2026094800",
+   "shutdown": {
+      "num_processes": 4,
+      "num_processes_slow": 2,
+      "type": 4
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   },
+   "subresource_filter": {
+      "ruleset_version": {
+         "checksum": 324950690,
+         "content": "9.39.0",
+         "format": 35
+      }
+   },
+   "tab_stats": {
+      "discards_external": 0,
+      "discards_urgent": 0,
+      "last_daily_sample": "13307800689325189",
+      "max_tabs_per_window": 2,
+      "reloads_external": 0,
+      "reloads_urgent": 0,
+      "total_tab_count_max": 2,
+      "window_count_max": 1
+   },
+   "ukm": {
+      "persisted_logs": [  ]
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1663320081"
+   },
+   "updateclientdata": {
+      "apps": {
+         "dhlpobdgcjafebgbbhjdnapejmpkgiie": {
+            "cohort": "1:z9x:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.0c24e9bd976adffa987e08fc54dc0950c84cf18f9cdb4c5caabc6acf24887c4f",
+            "pf": "19d42995-7d66-4c00-8e9b-474384d72595",
+            "pv": "20220505"
+         },
+         "dnhnnofocefcglhjeigmkhcgfoaipbaa": {
+            "cohort": "1:16j3:",
+            "cohorthint": "Stable",
+            "cohortname": "Stable",
+            "dlrc": 5737,
+            "fp": "1.debf9c5012f8a524ecac8193fbb7f12255b84b8f24b1b0d7aca00e267c74dc05",
+            "pf": "93eb1655-461f-41f0-9136-2891be6f5730",
+            "pv": "2022.6.27.3"
+         },
+         "eeigpngbgcognadeebkilcpcaedhellh": {
+            "cohort": "1:w59:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.c64c9c1008f3ba5f6e18b3ca524bc98dcd8acfae0a2720a8f1f3ef0f8d643d05",
+            "pf": "f536bf98-8440-48ae-b640-623f99d45754",
+            "pv": "2020.11.2.164946"
+         },
+         "efniojlnjndmcbiieegkicadnoecjjef": {
+            "cohort": "1:zkl:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.b6ea76c79fb53ec19c2558f5631ab380f2a301682b8c69a71b768bdf0b7f25b1",
+            "pf": "0953a7ca-15d2-4ddf-8a79-c02403b35b67",
+            "pv": "363"
+         },
+         "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
+            "cohort": "1:bm1:",
+            "cohorthint": "M54AndUp",
+            "cohortname": "M54AndUp",
+            "dlrc": 5737,
+            "fp": "1.6c10fe97de98bd13ccdca31d6a6ce99de0619d063d089ba8629bb7090b5cdd1a",
+            "pf": "c26d55a9-c7ff-41aa-b955-2add1b8296f6",
+            "pv": "9.39.0"
+         },
+         "ggkkehgbnfjpeggfpleeakpidbkibbmn": {
+            "cohort": "1:ut9:",
+            "cohorthint": "M80AndAbove",
+            "cohortname": "M80AndAbove",
+            "dlrc": 5737,
+            "fp": "1.666635faa93b3168a8c92b17d324cdc2ae1db5b9b6deebc367ef06bc82c0858d",
+            "pf": "65a0a98a-af62-46a0-9157-a0cc5ea91ac4",
+            "pv": "2022.8.22.1141"
+         },
+         "giekcmmlnklenlaomppkphknjmnnpneh": {
+            "cohort": "1:j5l:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.fd515ec0dc30d25a09641b8b83729234bc50f4511e35ce17d24fd996252eaace",
+            "pf": "20e3cf51-e218-4d5d-b216-7886265e6750",
+            "pv": "7"
+         },
+         "gonpemdgkjcecdgbnaabipppbmgfggbe": {
+            "cohort": "1:z1x:",
+            "cohorthint": "General release",
+            "cohortname": "General release",
+            "dlrc": 5737,
+            "fp": "1.c51d23bc0653142853b0d9dc8ba00f504aaae8a2a5b290e539b8790d88c0dcbe",
+            "pf": "1495b0b5-e744-4137-9cc3-a6b70d2e8890",
+            "pv": "2022.2.15.1"
+         },
+         "hfnkpimlhhgieaddgfemjhofmfblmnib": {
+            "cohort": "1:jcl:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.e388fcb3e53e3afcbd04be9cf1cb63923e2866c9df4d0a816c8db066481d00b0",
+            "pf": "d04606b8-556f-4709-8893-fe517af50977",
+            "pv": "7584"
+         },
+         "hnimpnehoodheedghdeeijklkeaacbdc": {
+            "cohort": "1::",
+            "cohortname": "",
+            "dlrc": 5737,
+            "fp": "1.6f6bc93dcd62dc251850d2ff458fda96083ceb7fbe8eeb11248b8485ef2aea23",
+            "pf": "eaeda1ce-497a-40ee-ab7a-233e6f39ad30",
+            "pv": "0.57.44.2492"
+         },
+         "imefjhfbkmcmebodilednhmaccmincoa": {
+            "cohort": "1:148r:",
+            "cohorthint": "desktop_1",
+            "cohortname": "desktop_1",
+            "dlrc": 5737,
+            "fp": "1.b741a8b152b0b740a9db94ae8a31ce824e096d7cecbebc2ae7539ff160f063ba",
+            "pf": "b452be7e-9526-47f7-a31a-664dc14a55e2",
+            "pv": "29.4"
+         },
+         "jamhcnnkihinmdlkakkaopbjbbcngflc": {
+            "cohort": "1:wvr:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.65b6ac787b9afa58af84dfdb21069972f6d536d37b00e61f65a2a622d84e65a3",
+            "pf": "1069b557-2bc3-4b90-9264-40a70b681775",
+            "pv": "107.0.5304.0"
+         },
+         "jflookgnkcckhobaglndicnbbgbonegd": {
+            "cohort": "1:s7x:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.d61c2f06111986ad8ee7af3e74ccfcfb7aac00171213756cf7c65e9a84feb190",
+            "pf": "50ce3d0c-78e6-457c-a0a3-0e2e1a5c99f1",
+            "pv": "2870"
+         },
+         "khaoiebndkojlmppeemjhbpbandiljpe": {
+            "cohort": "1:cux:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.d1c1666f10a8bc86e28c721617bb2f487cb82e1c12c70fa09bd35e15354ea906",
+            "pf": "83fb5712-e21d-4e0e-9f1a-212cce53f517",
+            "pv": "52"
+         },
+         "laoigpblnllgcgjnjnllmfolckpjlhki": {
+            "cohort": "1:10zr:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "pf": "d8199f6f-74c5-4d8c-884a-11d19907e6c2"
+         },
+         "llkgjffcdpffmhiakmfcdcblohccpfmo": {
+            "cohort": "1::",
+            "cohortname": "",
+            "dlrc": 5737,
+            "fp": "1.ab8d70a60ce0fba1355fad4edab88fd4d1bccc566b230998180183d1d776992b",
+            "pf": "0e3d29d2-f47e-4c39-b17e-b135baae8968",
+            "pv": "1.0.0.13"
+         },
+         "lmelglejhemejginpboagddgdfbepgmp": {
+            "cohort": "1:lwl:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.ba6cb8c428bd7d6e4e6bf992cba36d369670278d2703191968ef4cf259fd20b2",
+            "pf": "620ca294-13e9-47f0-a2a1-6200cbb7115e",
+            "pv": "353"
+         },
+         "obedbbhbpmojnkanicioggnmelmoomoc": {
+            "cohort": "1:s6f:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.c2b0c4336338f3b4eb7ef305fc006275a9f985119bfbe522b6b541ff0d0d5b3f",
+            "pf": "cf8a395d-6aac-41ae-bbcd-5c9727987ed2",
+            "pv": "20220906.473124663"
+         },
+         "oimompecagnajdejgnnjijobebaeigek": {
+            "cohort": "1::",
+            "cohortname": "",
+            "dlrc": 5737,
+            "pf": "74c41fc4-f1f5-4714-bfe2-541ec4590017"
+         },
+         "ojhpjlocmbogdgmfpkhlaaeamibhnphh": {
+            "cohort": "1:w0x:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5737,
+            "fp": "1.478aa915e78878e332a0b4bb4d2a6fb67ff1c7f7b62fe906f47095ba5ae112d0",
+            "pf": "ff5d5157-19a8-4df2-b0bf-a07c48ee8bf4",
+            "pv": "1"
+         }
+      }
+   },
+   "user_experience_metrics": {
+      "low_entropy_source3": 1318,
+      "provisional_client_id": "ba17e42f-7e56-42a2-bce9-3d499b225bbe",
+      "pseudo_low_entropy_source": 3175,
+      "session_id": 5,
+      "stability": {
+         "browser_last_live_timestamp": "13307803925197968",
+         "exited_cleanly": true,
+         "stats_buildtime": "1662071620",
+         "stats_version": "105.0.5195.102-64"
+      }
+   },
+   "variations_crash_streak": 1,
+   "was": {
+      "restarted": false
+   }
+}
+[1663330326.401][INFO]: Launching chrome: /usr/bin/google-chrome --allow-pre-commit-input --allow-running-insecure-content --autoplay-policy=no-user-gesture-required --disable-background-networking --disable-blink-features=AutomationControlled --disable-default-apps --disable-dev-shm-usage --disable-dev-shm-using --disable-gpu --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-setuid-sandbox --disable-sync --disable-web-security --enable-blink-features=ShadowDOMV0 --enable-javascript --enable-popup-blocking --ignore-certificate-errors --ignore-certificate-errors-spki-list --log-level=3 --no-first-run --no-proxy-server --no-sandbox --no-service-autorun --password-store=basic --profile-directory=3556 --remote-debugging-port=9222 --start-maximized --test-type=webdriver --use-mock-keychain --user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 --user-data-dir=/home/riken/Desktop/workspace/coinmarket/coinmarket/profiles
+[1663330326.920][INFO]: resolved localhost to ["127.0.0.1"]
+[1663330327.035][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "105.0.5195.102",
+      "chrome": {
+         "chromedriverVersion": "105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853})",
+         "userDataDir": "/home/riken/Desktop/workspace/coinmarket/coinmarket/profiles"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:9222"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "db822b5f8fef910634f6bb0f760712b5"
+}
+[1663330336.046][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND Navigate {
+   "url": "https://coinmarketcap.com/"
+}
+[1663330336.046][INFO]: Waiting for pending navigations...
+[1663330336.054][INFO]: Done waiting for pending navigations. Status: ok
+[1663330336.209][INFO]: Waiting for pending navigations...
+[1663330341.307][INFO]: Done waiting for pending navigations. Status: ok
+[1663330341.310][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE Navigate
+[1663330341.321][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.open('www.google.com')"
+}
+[1663330341.321][INFO]: Waiting for pending navigations...
+[1663330341.370][INFO]: Done waiting for pending navigations. Status: ok
+[1663330341.499][INFO]: Waiting for pending navigations...
+[1663330342.358][INFO]: Done waiting for pending navigations. Status: ok
+[1663330342.358][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE ExecuteScript null
+[1663330342.359][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND GetWindows {
+}
+[1663330342.362][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE GetWindows [ "CDwindow-30F4515D58F1F821888A9AEB37A08092", "CDwindow-2CC4A49A34549F5F5E9AC28538CC6913" ]
+[1663330342.364][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND SwitchToWindow {
+   "handle": "CDwindow-2CC4A49A34549F5F5E9AC28538CC6913"
+}
+[1663330342.371][INFO]: resolved localhost to ["127.0.0.1"]
+[1663330342.375][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE SwitchToWindow
+[1663330342.376][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND Refresh {
+}
+[1663330342.376][INFO]: resolved localhost to ["127.0.0.1"]
+[1663330342.508][INFO]: Waiting for pending navigations...
+[1663330342.512][INFO]: Done waiting for pending navigations. Status: ok
+[1663330342.513][INFO]: Waiting for pending navigations...
+[1663330342.851][INFO]: Done waiting for pending navigations. Status: ok
+[1663330342.851][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE Refresh
+[1663330342.853][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND GetWindows {
+}
+[1663330342.859][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE GetWindows [ "CDwindow-30F4515D58F1F821888A9AEB37A08092", "CDwindow-2CC4A49A34549F5F5E9AC28538CC6913" ]
+[1663330342.861][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND SwitchToWindow {
+   "handle": "CDwindow-2CC4A49A34549F5F5E9AC28538CC6913"
+}
+[1663330342.866][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE SwitchToWindow
+[1663330342.873][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND Navigate {
+   "url": "https://yopmail.com/en/email-generator"
+}
+[1663330342.873][INFO]: Waiting for pending navigations...
+[1663330342.875][INFO]: Done waiting for pending navigations. Status: ok
+[1663330343.618][INFO]: Waiting for pending navigations...
+[1663330346.118][INFO]: Done waiting for pending navigations. Status: ok
+[1663330346.118][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE Navigate
+[1663330346.119][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"egen\"]"
+}
+[1663330346.120][INFO]: Waiting for pending navigations...
+[1663330346.121][INFO]: Done waiting for pending navigations. Status: ok
+[1663330346.135][INFO]: Waiting for pending navigations...
+[1663330346.136][INFO]: Done waiting for pending navigations. Status: ok
+[1663330346.136][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d2978139-8c46-4f47-a3b9-98d7c8807631"
+}
+[1663330346.142][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.querySelector(\"#egen\").innerText"
+}
+[1663330346.142][INFO]: Waiting for pending navigations...
+[1663330346.155][INFO]: Done waiting for pending navigations. Status: ok
+[1663330346.161][INFO]: Waiting for pending navigations...
+[1663330346.170][INFO]: Done waiting for pending navigations. Status: ok
+[1663330346.170][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE ExecuteScript "zeloutouwopri-2646@yopmail.com"
+[1663330346.180][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND GetWindows {
+}
+[1663330346.184][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE GetWindows [ "CDwindow-30F4515D58F1F821888A9AEB37A08092", "CDwindow-2CC4A49A34549F5F5E9AC28538CC6913" ]
+[1663330346.190][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND SwitchToWindow {
+   "handle": "CDwindow-30F4515D58F1F821888A9AEB37A08092"
+}
+[1663330346.228][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE SwitchToWindow
+[1663330346.231][INFO]: [db822b5f8fef910634f6bb0f760712b5] COMMAND Refresh {
+}
+[1663330346.231][INFO]: Waiting for pending navigations...
+[1663330346.425][INFO]: Done waiting for pending navigations. Status: ok
+[1663330346.433][INFO]: Waiting for pending navigations...
+[1663330350.408][INFO]: Done waiting for pending navigations. Status: ok
+[1663330350.408][INFO]: [db822b5f8fef910634f6bb0f760712b5] RESPONSE Refresh

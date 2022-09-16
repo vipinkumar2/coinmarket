@@ -1,0 +1,127 @@
+2022-09-16 12:24:02,170 - Script started to login created account
+2022-09-16 12:24:02,180 - Driver is genrated !
+2022-09-16 12:24:02,180 - ====== WebDriver manager ======
+2022-09-16 12:24:02,246 - Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-09-16 12:24:02,607 - Driver [/home/riken/.wdm/drivers/chromedriver/linux64/105.0.5195/chromedriver] found in cache
+<selenium.webdriver.chrome.webdriver.WebDriver (session="19f052f3c73907e9ba890896e85936e0")>
+2022-09-16 12:24:03,200 - Random sleep: 7 for : open driver
+2022-09-16 12:24:25,525 - Cannot find the element: profile pic
+2022-09-16 12:24:25,542 - the is login : False------------
+2022-09-16 12:24:38,120 - Cannot find the element: profile pic
+2022-09-16 12:24:38,151 - Found the element: login btn
+2022-09-16 12:24:38,337 - Clicked the element: login btn
+2022-09-16 12:24:38,338 - Random sleep: 3 for : to open login menu
+2022-09-16 12:24:41,338 - Random sleep: 2
+2022-09-16 12:24:44,458 - Found the element: Login btn
+2022-09-16 12:24:44,894 - Clicked the element: Login btn
+2022-09-16 12:24:45,957 - Found the element: open image classification captcha
+2022-09-16 12:24:45,958 - Random sleep: 3
+2022-09-16 12:24:50,120 - Image sucessfully Downloaded: /home/riken/Desktop/workspace/coinmarket/coinmarket/captcha_images/captcha_image3546_0.jpeg
+2022-09-16 12:24:51,025 - Image sucessfully Downloaded: /home/riken/Desktop/workspace/coinmarket/coinmarket/captcha_images/captcha_image3546_1.jpeg
+2022-09-16 12:24:51,037 - Trying to solve the captcha
+2022-09-16 12:25:21,243 - Found the element: captcha Next btn
+2022-09-16 12:25:21,443 - Clicked the element: captcha Next btn
+Traceback (most recent call last):
+  File "/home/riken/Desktop/workspace/coinmarket/coinmarket/manage.py", line 22, in <module>
+    main()
+  File "/home/riken/Desktop/workspace/coinmarket/coinmarket/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/home/riken/.local/lib/python3.10/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/home/riken/.local/lib/python3.10/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/riken/.local/lib/python3.10/site-packages/django/core/management/base.py", line 402, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/home/riken/.local/lib/python3.10/site-packages/django/core/management/base.py", line 448, in execute
+    output = self.handle(*args, **options)
+  File "/home/riken/Desktop/workspace/coinmarket/coinmarket/home/management/commands/comment.py", line 17, in handle
+    cmc_bot.login()
+  File "/home/riken/Desktop/workspace/coinmarket/coinmarket/home/bot.py", line 144, in login
+    self.solving_captcha()
+  File "/home/riken/Desktop/workspace/coinmarket/coinmarket/home/bot.py", line 206, in solving_captcha
+    self.captcha_link_divs[image___count].click()
+  File "/home/riken/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 88, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/riken/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 396, in _execute
+    return self._parent.execute(command, params)
+  File "/home/riken/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "/home/riken/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=105.0.5195.102)
+Stacktrace:
+#0 0x5605246ca693 <unknown>
+#1 0x5605244c39db <unknown>
+#2 0x5605244fd75e <unknown>
+#3 0x5605244f1551 <unknown>
+#4 0x560524519922 <unknown>
+#5 0x5605244f0d53 <unknown>
+#6 0x560524519a8e <unknown>
+#7 0x56052452d4b0 <unknown>
+#8 0x560524519743 <unknown>
+#9 0x5605244ef533 <unknown>
+#10 0x5605244f0715 <unknown>
+#11 0x56052471a7bd <unknown>
+#12 0x56052471dbf9 <unknown>
+#13 0x5605246fff2e <unknown>
+#14 0x56052471e9b3 <unknown>
+#15 0x5605246f3e4f <unknown>
+#16 0x56052473dea8 <unknown>
+#17 0x56052473e052 <unknown>
+#18 0x56052475871f <unknown>
+#19 0x7fba16e88b43 <unknown>
+
+2022-09-16 13:24:02,366 - Script started to login created account
+2022-09-16 13:24:02,376 - Driver is genrated !
+2022-09-16 13:24:02,376 - ====== WebDriver manager ======
+2022-09-16 13:24:02,430 - Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-09-16 13:24:02,754 - Driver [/home/riken/.wdm/drivers/chromedriver/linux64/105.0.5195/chromedriver] found in cache
+<selenium.webdriver.chrome.webdriver.WebDriver (session="654bdc47d44f1331297c8319ea0cdf2e")>
+2022-09-16 13:24:03,291 - Random sleep: 9 for : open driver
+Traceback (most recent call last):
+  File "/home/riken/Desktop/workspace/coinmarket/coinmarket/manage.py", line 22, in <module>
+    main()
+  File "/home/riken/Desktop/workspace/coinmarket/coinmarket/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/home/riken/.local/lib/python3.10/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/home/riken/.local/lib/python3.10/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/riken/.local/lib/python3.10/site-packages/django/core/management/base.py", line 402, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/home/riken/.local/lib/python3.10/site-packages/django/core/management/base.py", line 448, in execute
+    output = self.handle(*args, **options)
+  File "/home/riken/Desktop/workspace/coinmarket/coinmarket/home/management/commands/comment.py", line 17, in handle
+    cmc_bot.login()
+  File "/home/riken/Desktop/workspace/coinmarket/coinmarket/home/bot.py", line 115, in login
+    self.driver.get('https://coinmarketcap.com/')
+  File "/home/riken/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/riken/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "/home/riken/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=105.0.5195.102)
+Stacktrace:
+#0 0x563ffc927693 <unknown>
+#1 0x563ffc720b0a <unknown>
+#2 0x563ffc701cd4 <unknown>
+#3 0x563ffc70608d <unknown>
+#4 0x563ffc70b2b6 <unknown>
+#5 0x563ffc722072 <unknown>
+#6 0x563ffc789ad8 <unknown>
+#7 0x563ffc776743 <unknown>
+#8 0x563ffc74c533 <unknown>
+#9 0x563ffc74d715 <unknown>
+#10 0x563ffc9777bd <unknown>
+#11 0x563ffc97abf9 <unknown>
+#12 0x563ffc95cf2e <unknown>
+#13 0x563ffc97b9b3 <unknown>
+#14 0x563ffc950e4f <unknown>
+#15 0x563ffc99aea8 <unknown>
+#16 0x563ffc99b052 <unknown>
+#17 0x563ffc9b571f <unknown>
+#18 0x7fcaba84fb43 <unknown>
+

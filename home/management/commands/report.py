@@ -52,7 +52,7 @@ class Command(BaseCommand):
         if text:
             payload = {"text":text}
             print(payload)
-            r = requests.post(WEB_HOOK_URL, json=payload)
+            # r = requests.post(WEB_HOOK_URL, json=payload)
             # LOGGER.info(f"WEB HOOK Post Response: {r.text}")
             # LOGGER.info(r.text)
 WEB_HOOK_URL = "https://hooks.slack.com/services/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"

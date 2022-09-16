@@ -175,12 +175,12 @@ class coinmarket:
                 user = self.user,
                 comment = random_comment
             )
-            try:
-                repeatation = input('Enter check after posts commnet \n1 for repeat process or\n2 for complete process:')
-                if int(repeatation) == 2:
-                    break
-            except Exception as e: 
-                print(e)
+            # try:
+            #     repeatation = input('Enter check after posts commnet \n1 for repeat process or\n2 for complete process:')
+            #     if int(repeatation) == 2:
+            #         break
+            # except Exception as e: 
+            #     print(e)
 
     def close_startup_popup(self):
         '''to close pop up for search suggestion if it is exists '''

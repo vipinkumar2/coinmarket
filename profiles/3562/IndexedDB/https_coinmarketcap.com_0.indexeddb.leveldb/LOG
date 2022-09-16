@@ -1,0 +1,10 @@
+2022/09/16-13:28:22.252 a686 Creating DB /home/riken/Desktop/workspace/coinmarket/coinmarket/profiles/3562/IndexedDB/https_coinmarketcap.com_0.indexeddb.leveldb since it was missing.
+2022/09/16-13:28:22.256 a686 Reusing MANIFEST /home/riken/Desktop/workspace/coinmarket/coinmarket/profiles/3562/IndexedDB/https_coinmarketcap.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/16-13:28:25.259 a683 Level-0 table #5: started
+2022/09/16-13:28:25.262 a683 Level-0 table #5: 1244 bytes OK
+2022/09/16-13:28:25.270 a683 Delete type=0 #3
+2022/09/16-13:28:25.270 a683 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/09/16-13:28:39.565 a686 Level-0 table #7: started
+2022/09/16-13:28:39.566 a686 Level-0 table #7: 1083 bytes OK
+2022/09/16-13:28:39.568 a686 Delete type=0 #4
+2022/09/16-13:28:39.569 a686 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -11,13 +11,13 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         self.logger.info('Script started to login created account')
 
-        for user in user_details.objects.filter(status = "ACTIVE"):
+        for user in user_details.objects.filter(status = "ACTIVE").order_by('?'):
             
             cmc_bot = coinmarket(profile_dir=int(user.profile_name),hide_browser=False)
             cmc_bot.login()
             cmc_bot.comment_on_xana()
-            input('Enter :')
             cmc_bot.quite_driver()
+            # input('Enter :')
 
 
         
