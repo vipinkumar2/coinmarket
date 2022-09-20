@@ -58,7 +58,7 @@ def get_driver(profile_dir='profile',connect_vpn = False,hide_browser = False) :
         options.headless = True
 
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-    # driver = webdriver.Chrome(executable_path='/home/riken/Desktop/workspace/coinmarket/coinmarket/driver/chromedriver', options=options)
+    # driver = webdriver.Chrome(executable_path=os.path.join(BASE_DIR, 'driver/chromedriver'), options=options)
     if connect_vpn == True :
         connect_vpn(driver)
     return driver
